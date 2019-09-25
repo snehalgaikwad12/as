@@ -1,0 +1,125 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+body {
+    
+    background-color: #ccddff;
+}
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+}  
+
+.custom-navbar-inverse {
+    height:90px;
+           background-image: url('../images/image002.jpg');
+          background-size: 100% 100%;
+           
+}
+.navbar-brand {
+    float: left;
+    padding: 20px !important;
+    font-size: 20px !important;
+    line-height: 20px;
+}
+.custom-nav-header {
+    color: #fff;
+}
+.custom-nav-header p {
+    margin: 15px;
+}
+.custom-button-padding {
+    padding-top: 25px;
+}
+
+.navbar-nav {
+    width: 100%;
+    text-align: center;    
+}
+.navbar-nav > li {
+    float: none;
+    display: inline-block;    
+}
+.custom-logo {
+    position: absolute;
+}   
+.custom-heading {    
+    font-size: 21px;  
+    margin-top:20px;  
+}
+.navbar-inverse .navbar-nav>li>a {
+    color:#ffffff!important;
+}
+.custom-heading-bold {
+    font-size: 21px;
+    font-weight: bolder;
+    color: #962626;
+}
+
+.custom-heading-light {
+    font-size: 21px;
+    font-weight: normal;
+    color: #ffffff;
+}
+
+.navbar-collapse {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+hr {
+    border-top: 1px solid #a9a9a9;
+}
+
+.section-header {
+    font-size: 20px;
+    color: #50b848;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+.section-header-main {
+    font-size: 24px;
+    color: #50b848;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+
+
+    .fixed-footer{
+        bottom: 0;
+    }
+
+.form_bg {
+    background-color:#eee;
+    color:#666;
+    padding:20px;
+    border-radius:10px;
+    position: absolute;
+    border:1px solid #fff;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 320px;
+    height: 280px;
+}
+
+.align-center {
+    
+    text-align:center;
+}
+
+.fixed-footer{
+        width: 100%;
+        position: fixed;        
+        background: #fff;
+      
+        color: #333;
+        height: 25px!important;
+        /*background-image: url("../images/image002.jpg");*/
+    }
+
+    .fixed-footer{
+        bottom: 0;
+    }
+
